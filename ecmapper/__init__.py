@@ -1,0 +1,2 @@
+from ecmapper.bigg_mapper import map_ec_to_bigg
+from ecmapper.modelseed_mapper import map_ec_to_modelseed
