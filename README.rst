@@ -1,7 +1,7 @@
 ecmapper
 ========
 
-Just a test to see if it is possible to extract map EC number from an organism to BIGG and ModelSEED reactions.
+Just a test to see if it is possible to map EC number from an organism to BIGG and ModelSEED reactions.
 
 Requirements
 ~~~~~~~~~~~~
@@ -16,6 +16,9 @@ In the ecmapper git folder:
 .. code:: sh
 
     python3 setup.py develop
+
+Use
+~~~
 
 This tool takes as input a genbank file (containing the EC number). It also uses database files from BIGG and ModelSEED.
 
