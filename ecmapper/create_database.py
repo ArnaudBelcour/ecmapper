@@ -15,5 +15,6 @@ def download_database(database_folder):
     print('Download ModelSEED reactions file')
     urllib.request.urlretrieve('https://github.com/ModelSEED/ModelSEEDDatabase/raw/master/Biochemistry/reactions.tsv', database_folder + '/reactions.tsv')
 
-
+    print('Download MetaNetX reactions file')
+    urllib.request.urlretrieve('https://www.metanetx.org/cgi-bin/mnxget/mnxref/reac_prop.tsv', database_folder + '/reac_prop.tsv')
 
